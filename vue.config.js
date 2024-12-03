@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/Threejs/', // Устанавливаем базовый путь принудительно
+  base: '/Threejs/',
   plugins: [vue()],
   resolve: {
     alias: {
