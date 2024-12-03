@@ -12,7 +12,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/Three.js/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/Threejs/' : '/',
   build: {
     outDir: 'dist',  // Папка для сборки
     assetsDir: 'assets',  // Папка для статичных ресурсов
